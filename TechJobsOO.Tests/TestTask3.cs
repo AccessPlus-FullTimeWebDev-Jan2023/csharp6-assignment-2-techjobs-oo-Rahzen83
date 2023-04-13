@@ -48,7 +48,7 @@ namespace TechJobsOO.Tests
 
 
         [TestMethod]  //3
-        public void Test_JobClass_Has_Second_Constructror()
+        public void Test_JobClass_Has_Second_Constructor()
         {
             //setup
             Type jobType = typeof(Job);
