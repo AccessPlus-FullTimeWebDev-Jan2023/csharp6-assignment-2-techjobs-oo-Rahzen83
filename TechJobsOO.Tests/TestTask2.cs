@@ -55,6 +55,8 @@ namespace TechJobsOO.Tests
         public void Test_Second_Location_Constructor_Initializes_Id()
         {
             //setup
+
+            Location testLocation1 = new Location("Desert");
             Location testLocation = new Location("Desert");
             Console.WriteLine(testLocation.Id);
 
