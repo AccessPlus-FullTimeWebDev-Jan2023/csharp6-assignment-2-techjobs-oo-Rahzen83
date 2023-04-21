@@ -6,7 +6,7 @@ namespace TechJobsOO.Tests
 	{
         //Testing the new Job class.  Tests are numbered.
 
-        /* TODO: Task 3: Remove this line to uncomment the tests
+        
           
      
         [TestMethod]    //1
@@ -48,7 +48,7 @@ namespace TechJobsOO.Tests
 
 
         [TestMethod]  //3
-        public void Test_JobClass_Has_Second_Constructror()
+        public void Test_JobClass_Has_Second_Constructor()
         {
             //setup
             Type jobType = typeof(Job);
@@ -132,7 +132,7 @@ namespace TechJobsOO.Tests
             Assert.AreNotEqual(testJob1.GetHashCode(), testJob2.GetHashCode(), "GetHashCode output test");
         }
 
-        TODO: Task 3: Remove this line to uncomment the tests */
+        
     }
 }
 
