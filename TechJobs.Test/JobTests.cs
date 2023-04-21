@@ -16,6 +16,7 @@ namespace TechJobs.Tests
         {
 
             Assert.AreNotEqual(job1, job2, "Unique Id Test");
+            Assert.AreEqual(job1.Id+1, job2.Id);
             Assert.AreEqual(job2, job2, "Should have same Id");
 
         }
